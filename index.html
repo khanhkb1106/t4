@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Designer - Khám Phá Sự Nghiệp Thiết Kế Đồ Họa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-section">
+                <img src="logo.png" alt="Logo" class="nav-logo">
+                <span class="brand-name">Graphic Designer</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">Về Chúng Tôi</a></li>
+                <li><a href="#categories" class="nav-link">Danh Mục</a></li>
+                <li><a href="#podcast" class="nav-link">Podcast</a></li>
+                <li><a href="#profession" class="nav-link">Nghề Nghiệp</a></li>
+                <li><a href="#contact" class="nav-link">Liên Hệ</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <img src="banner.png" alt="Banner" class="hero-background">
+        <div class="hero-content">
+            <h1 class="hero-title">Graphic Designer</h1>
+            <p class="hero-subtitle">Vén Màn Bí Ẩn Đằng Sau Nghề</p>
+            <button class="cta-button" onclick="scrollToSection('#categories')">
+                <span>Tìm Hiểu Thêm</span>
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <div class="animated-gradient"></div>
+        </div>
+    </section>
+
+    <!-- Ticker Section -->
+    <section class="ticker-section">
+        <div class="ticker-content">
+            <span class="ticker-text">
+                <i class="fas fa-star"></i> Khám phá sự nghiệp Graphic Designer
+                <i class="fas fa-star"></i> Lộ trình phát triển chuyên nghiệp
+                <i class="fas fa-star"></i> Cơ hội việc làm hấp dẫn
+            </span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-container">
+        <div class="container">
+            <h2 class="section-title">Về Chúng Tôi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Trang web này là một trang giới thiệu toàn diện về nghề Graphic Designer, được tạo bởi một nhóm đam mê thiết kế. Chúng tôi cung cấp thông tin chi tiết về công việc, kỹ năng cần thiết, cơ hội nghề nghiệp, và các tài nguyên học tập.</p>
+                    <p>Thông qua 3 tập podcast chuyên sâu, chúng tôi giúp bạn hiểu rõ hơn về sự nghiệp Graphic Designer - từ những yếu tố cơ bản đến những thách thức thực tế trong công việc hàng ngày.</p>
+                </div>
+                <div class="about-highlight">
+                    <div class="highlight-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Kiến Thức Chuyên Sâu</h3>
+                        <p>Thông tin từ các chuyên gia trong ngành</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-podcast"></i>
+                        <h3>Podcast Hấp Dẫn</h3>
+                        <p>Nghe câu chuyện thực tế từ các designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories section-container">
+        <div class="container">
+            <h2 class="section-title">Danh Mục Chính</h2>
+            <div class="categories-grid">
+                <div class="category-card hover-zoom">
+                    <div class="category-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Công Việc & Trách Vụ</h3>
+                    <p>Khám phá các loại công việc chính của Graphic Designer, từ thiết kế branding, ấn phẩm đến UI/UX.</p>
+                    <a href="#profession" class="category-link">Tìm hiểu thêm →</a>
+                </div>
+                <div class="category-card hover-zoom">
+                    <div class="category-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Kỹ Năng & Kiến Thức</h3>
+                    <p>Những kỹ năng cần thiết: từ kiến thức thị giác đến thành thạo công cụ như Photoshop, Illustrator.</p>
+                    <a href="#profession" class="category-link">Tìm hiểu thêm →</a>
+                </div>
+                <div class="category-card hover-zoom">
+                    <div class="category-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Lộ Trình Học Tập</h3>
+                    <p>Các trường đại học, khóa học online, và cách tự học để trở thành Graphic Designer chuyên nghiệp.</p>
+                    <a href="#profession" class="category-link">Tìm hiểu thêm →</a>
+                </div>
+                <div class="category-card hover-zoom">
+                    <div class="category-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Cơ Hội & Thăng Tiến</h3>
+                    <p>Cơ hội việc làm, lộ trình thăng tiến từ Junior đến Creative Director, và những hướng đi khác.</p>
+                    <a href="#profession" class="category-link">Tìm hiểu thêm →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Podcast Section -->
+    <section id="podcast" class="podcast section-container">
+        <div class="container">
+            <h2 class="section-title">Podcast Series</h2>
+            <p class="section-subtitle">Nghe những câu chuyện thực tế từ các chuyên gia Graphic Designer</p>
+            <div class="podcast-grid">
+                <!-- Podcast 1 -->
+                <div class="podcast-card">
+                    <div class="podcast-header">
+                        <div class="podcast-number">Tập 1</div>
+                        <span class="podcast-duration">
+                            <i class="fas fa-clock"></i>
+                            <span id="duration-1">00:00</span>
+                        </span>
+                    </div>
+                    <h3>Hành Trình Tìm Đến Graphic Designer</h3>
+                    <p class="podcast-description">
+                        Khám phá hành trình cá nhân từ đam mê vẽ tranh đến việc trở thành Graphic Designer chuyên nghiệp. Tập này giải thích những yếu tố tối thiểu cần có: tư duy thiết kế, phân tích brief, hiểu người xem, và thành thạo công cụ.
+                    </p>
+                    <div class="audio-player">
+                        <audio id="audio-1" onloadedmetadata="updateDuration('audio-1', 'duration-1')">
+                            <source src="Audio podcast tập 1 (1).aac" type="audio/aac">
+                            Trình duyệt của bạn không hỗ trợ phần tử audio.
+                        </audio>
+                        <div class="player-controls">
+                            <button class="play-btn" onclick="togglePlay('audio-1', this)">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progress-1"></div>
+                                <input type="range" class="progress-input" id="progress-input-1" min="0" max="100" value="0" onchange="changeTime('audio-1', this)">
+                            </div>
+                            <span class="time-display" id="time-1">00:00</span>
+                        </div>
+                    </div>
+                    <button class="listen-btn" onclick="togglePlay('audio-1', document.querySelector('#podcast-card-1 .play-btn'))">
+                        <i class="fas fa-play"></i> Nghe Ngay
+                    </button>
+                </div>
+
+                <!-- Podcast 2 -->
+                <div class="podcast-card" id="podcast-card-2">
+                    <div class="podcast-header">
+                        <div class="podcast-number">Tập 2</div>
+                        <span class="podcast-duration">
+                            <i class="fas fa-clock"></i>
+                            <span id="duration-2">00:00</span>
+                        </span>
+                    </div>
+                    <h3>Những Lầm Tưởng Phổ Biến</h3>
+                    <p class="podcast-description">
+                        Làm rõ những quan niệm sai lầm về Graphic Designer: chỉ cần biết vẽ, chỉ cần làm đẹp, nghề nhàn, hay dễ giàu. Tập này cung cấp cái nhìn thực tế về áp lực công việc, tính cạnh tranh, và con đường phát triển thực sự.
+                    </p>
+                    <div class="audio-player">
+                        <audio id="audio-2" onloadedmetadata="updateDuration('audio-2', 'duration-2')">
+                            <source src="Audio podcast tập 2 (1).aac" type="audio/aac">
+                            Trình duyệt của bạn không hỗ trợ phần tử audio.
+                        </audio>
+                        <div class="player-controls">
+                            <button class="play-btn" onclick="togglePlay('audio-2', this)">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progress-2"></div>
+                                <input type="range" class="progress-input" id="progress-input-2" min="0" max="100" value="0" onchange="changeTime('audio-2', this)">
+                            </div>
+                            <span class="time-display" id="time-2">00:00</span>
+                        </div>
+                    </div>
+                    <button class="listen-btn" onclick="togglePlay('audio-2', document.querySelector('#podcast-card-2 .play-btn'))">
+                        <i class="fas fa-play"></i> Nghe Ngay
+                    </button>
+                </div>
+
+                <!-- Podcast 3 -->
+                <div class="podcast-card" id="podcast-card-3">
+                    <div class="podcast-header">
+                        <div class="podcast-number">Tập 3</div>
+                        <span class="podcast-duration">
+                            <i class="fas fa-clock"></i>
+                            <span id="duration-3">00:00</span>
+                        </span>
+                    </div>
+                    <h3>Một Ngày Làm Graphic Designer</h3>
+                    <p class="podcast-description">
+                        Khám phá thực tế qua một ngày làm việc của Graphic Designer. Tìm hiểu quy trình nhận brief, làm việc với deadline, cách xử lý feedback, và cơ hội phát triển trong tương lai của ngành thông qua câu chuyện của một designer mới vào nghề.
+                    </p>
+                    <div class="audio-player">
+                        <audio id="audio-3" onloadedmetadata="updateDuration('audio-3', 'duration-3')">
+                            <source src="Audio podcast tập 3 (1).aac" type="audio/aac">
+                            Trình duyệt của bạn không hỗ trợ phần tử audio.
+                        </audio>
+                        <div class="player-controls">
+                            <button class="play-btn" onclick="togglePlay('audio-3', this)">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progress-3"></div>
+                                <input type="range" class="progress-input" id="progress-input-3" min="0" max="100" value="0" onchange="changeTime('audio-3', this)">
+                            </div>
+                            <span class="time-display" id="time-3">00:00</span>
+                        </div>
+                    </div>
+                    <button class="listen-btn" onclick="togglePlay('audio-3', document.querySelector('#podcast-card-3 .play-btn'))">
+                        <i class="fas fa-play"></i> Nghe Ngay
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profession Section -->
+    <section id="profession" class="profession section-container">
+        <div class="container">
+            <h2 class="section-title">Tìm Hiểu Về Ngành Graphic Designer</h2>
+            
+            <!-- What Do They Do -->
+            <div class="profession-subsection">
+                <h3 class="subsection-title">1. Làm Gì?</h3>
+                <div class="profession-content">
+                    <div class="profession-card">
+                        <h4>Công Việc Chính</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Thiết kế nhận diện thương hiệu: logo, bộ nhận diện, guideline</li>
+                            <li><i class="fas fa-check-circle"></i> Thiết kế ấn phẩm truyền thông: poster, banner, brochure, catalogue</li>
+                            <li><i class="fas fa-check-circle"></i> Thiết kế cho nền tảng số: social media post, web banner, UI graphic</li>
+                            <li><i class="fas fa-check-circle"></i> Thiết kế bao bì sản phẩm</li>
+                        </ul>
+                    </div>
+                    <div class="profession-card">
+                        <h4>Các Nhánh Phổ Biến</h4>
+                        <ul>
+                            <li><i class="fas fa-arrow-right"></i> Branding Designer</li>
+                            <li><i class="fas fa-arrow-right"></i> Social Media Designer</li>
+                            <li><i class="fas fa-arrow-right"></i> UI/UX Designer</li>
+                            <li><i class="fas fa-arrow-right"></i> Motion Graphic Designer</li>
+                            <li><i class="fas fa-arrow-right"></i> Packaging Designer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Knowledge & Skills -->
+            <div class="profession-subsection">
+                <h3 class="subsection-title">2. Kiến Thức & Kỹ Năng Cần Có</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4><i class="fas fa-book"></i> Kiến Thức Nền Tảng</h4>
+                        <ul>
+                            <li>Nguyên lý thị giác: bố cục, màu sắc, tương phản, nhịp điệu</li>
+                            <li>Typography: font chữ, hệ chữ, khoảng cách chữ</li>
+                            <li>Nhận diện thương hiệu & tâm lý thị giác</li>
+                            <li>Quy trình thiết kế & tư duy thiết kế (design thinking)</li>
+                            <li>Cơ bản về marketing và truyền thông</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4><i class="fas fa-tools"></i> Kỹ Năng Chuyên Môn</h4>
+                        <ul>
+                            <li>Adobe Photoshop</li>
+                            <li>Adobe Illustrator</li>
+                            <li>Adobe InDesign</li>
+                            <li>After Effects, Figma</li>
+                            <li>Kỹ năng sketch, lên ý tưởng</li>
+                            <li>Làm việc với brief và feedback</li>
+                            <li>Quản lý thời gian, deadline</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4><i class="fas fa-heart"></i> Kỹ Năng Mềm</h4>
+                        <ul>
+                            <li>Giao tiếp và trình bày ý tưởng</li>
+                            <li>Làm việc nhóm</li>
+                            <li>Tư duy phản biện</li>
+                            <li>Tự học và cập nhật xu hướng</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Paths -->
+            <div class="profession-subsection">
+                <h3 class="subsection-title">3. Học Ngành Nào Để Làm Graphic Designer?</h3>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <h4>Học Chính Quy</h4>
+                        <p><strong>Chuyên ngành phù hợp:</strong></p>
+                        <ul>
+                            <li>Thiết kế đồ họa</li>
+                            <li>Mỹ thuật ứng dụng</li>
+                            <li>Truyền thông đa phương tiện</li>
+                            <li>Thiết kế truyền thông</li>
+                        </ul>
+                        <p><strong>Các trường tại Việt Nam:</strong></p>
+                        <ul>
+                            <li>Đại học Mỹ thuật Công nghiệp</li>
+                            <li>Đại học Kiến trúc</li>
+                            <li>RMIT, FPT, Arena, VTC Academy</li>
+                        </ul>
+                    </div>
+                    <div class="education-card">
+                        <h4>Học Không Chính Quy</h4>
+                        <p><strong>Phương thức học:</strong></p>
+                        <ul>
+                            <li>Khóa học ngắn hạn (online/offline)</li>
+                            <li>Tự học qua YouTube</li>
+                            <li>Coursera, Skillshare, Domestika</li>
+                            <li>Thực hành dự án thực tế</li>
+                        </ul>
+                        <p><strong>Lợi ích:</strong></p>
+                        <ul>
+                            <li>Linh hoạt về thời gian</li>
+                            <li>Chi phí thấp hơn</li>
+                            <li>Học tập theo tốc độ của bạn</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Career Opportunities -->
+            <div class="profession-subsection">
+                <h3 class="subsection-title">4. Cơ Hội Việc Làm & Thăng Tiến</h3>
+                <div class="career-content">
+                    <div class="career-opportunities">
+                        <h4>Cơ Hội Việc Làm</h4>
+                        <div class="opportunity-list">
+                            <div class="opportunity-item">
+                                <i class="fas fa-building"></i>
+                                <span>Công ty thiết kế, agency quảng cáo</span>
+                            </div>
+                            <div class="opportunity-item">
+                                <i class="fas fa-briefcase"></i>
+                                <span>Doanh nghiệp có phòng marketing</span>
+                            </div>
+                            <div class="opportunity-item">
+                                <i class="fas fa-rocket"></i>
+                                <span>Startup, công ty công nghệ</span>
+                            </div>
+                            <div class="opportunity-item">
+                                <i class="fas fa-globe"></i>
+                                <span>Freelancer, remote cho khách nước ngoài</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="career-path">
+                        <h4>Lộ Trình Thăng Tiến</h4>
+                        <div class="path-timeline">
+                            <div class="path-step">
+                                <span class="step-year">0-2 năm</span>
+                                <span class="step-title">Junior Designer</span>
+                            </div>
+                            <div class="path-arrow"><i class="fas fa-arrow-down"></i></div>
+                            <div class="path-step">
+                                <span class="step-year">2-5 năm</span>
+                                <span class="step-title">Designer / Senior Designer</span>
+                            </div>
+                            <div class="path-arrow"><i class="fas fa-arrow-down"></i></div>
+                            <div class="path-step">
+                                <span class="step-year">5+ năm</span>
+                                <span class="step-title">Art Director</span>
+                            </div>
+                            <div class="path-arrow"><i class="fas fa-arrow-down"></i></div>
+                            <div class="path-step">
+                                <span class="step-year">Chuyên gia</span>
+                                <span class="step-title">Creative Director</span>
+                            </div>
+                        </div>
+                        <p class="path-note"><strong>Hoặc chuyển hướng:</strong> UI/UX Designer, Motion Designer, Brand Strategist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mindmap Section -->
+    <section id="mindmap" class="mindmap section-container">
+        <div class="container">
+            <h2 class="section-title">Tóm Tắt Nội Dung</h2>
+            <p class="section-subtitle">Sơ đồ tư duy tổng hợp về ngành Graphic Designer</p>
+            <div class="mindmap-container">
+                <img src="mindmap.png" alt="Mindmap Graphic Designer" class="mindmap-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-container">
+        <div class="container">
+            <h2 class="section-title">Liên Hệ</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@graphicdesigner.vn</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Điện Thoại</h4>
+                            <p>+84 (28) 3815 5555</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Địa Chỉ</h4>
+                            <p>TP. Hồ Chí Minh, Việt Nam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Graphic Designer - Khám Phá Sự Nghiệp Thiết Kế Đồ Họa. Tất cả quyền được bảo lưu.</p>
+            <div class="footer-links">
+                <a href="#about">Về Chúng Tôi</a>
+                <a href="#podcast">Podcast</a>
+                <a href="#contact">Liên Hệ</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
